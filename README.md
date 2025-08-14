@@ -160,15 +160,11 @@ curl -X POST http://127.0.0.1:8000/api/register/   -H "Content-Type: application
 - **Recent Chat Context Pipeline** – Send recent chat history to LLM for improved contextual understanding.
 - **Message Caching** – Use Redis to avoid DB lookups on every request.
 - **Token Update on Every Request** – Ensure tokens are updated in real-time with every message.
-- **Streaming AI Responses** – Stream partial LLM responses for a smooth experience.
-- **Multiple Model Support** – Let users pick the AI model they want.
+
 
 ---
 
 ## ✅ Challenges Encountered
 I did not encounter any challenges during this implementation because I have developed an advanced version of this system before, which included additional features and optimizations.
 
----
 
-## 📄 License
-MIT License
